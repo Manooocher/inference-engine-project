@@ -1,0 +1,54 @@
+inference-engine-project/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── middlewares/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── app.ts
+│   │   ├── server.ts
+│   ├── tests/
+│   │   ├── unit/
+│   │   ├── integration/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── .eslintrc.js
+│   ├── .prettierrc
+│   ├── .env
+│   ├── jest.config.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   ├── utils/
+│   │   ├── hooks/
+│   │   ├── App.tsx
+│   │   ├── index.tsx
+│   ├── public/
+│   ├── tests/
+│   │   ├── unit/
+│   │   ├── integration/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── .eslintrc.js
+│   ├── .prettierrc
+│   ├── .env
+├── inference-engine/
+│   ├── src/
+│   │   ├── parsers/
+│   │   ├── inference/
+│   │   ├── utils/
+│   │   ├── main.py
+│   ├── tests/
+│   │   ├── unit/
+│   │   ├── integration/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── .env
+├── docker-compose.yml
+├── README.md

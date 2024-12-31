@@ -1,0 +1,14 @@
+T__0=1
+T__1=2
+T__2=3
+QUANTIFIER=4
+BINARY_OP=5
+NOT=6
+PREDICATE=7
+VARIABLE=8
+CONSTANT=9
+WS=10
+'('=1
+')'=2
+','=3
+'not'=6

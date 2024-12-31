@@ -1,0 +1,28 @@
+/* استایل برای کلاس layout */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* استایل برای هدر */
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* استایل برای محتوای اصلی */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* استایل برای فوتر */
+footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
